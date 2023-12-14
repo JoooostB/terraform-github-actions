@@ -70,7 +70,7 @@ runs:
   env:
     OPENTOFU: true
   using: docker
-  image: ../image/Dockerfile
+  image: docker://danielflook/terraform-github-actions:home
   entrypoint: /entrypoints/apply.sh
 
 branding:

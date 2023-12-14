@@ -22,7 +22,7 @@ inputs:
 
 runs:
   using: docker
-  image: ../image/Dockerfile
+  image: docker://danielflook/terraform-github-actions:home
   entrypoint: /entrypoints/output.sh
 
 branding:
