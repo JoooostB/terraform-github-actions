@@ -78,6 +78,7 @@ if [[ $PLAN_EXIT -eq 1 ]]; then
 elif [[ $PLAN_EXIT -eq 0 ]]; then
     debug_log "No Changes to apply"
     set_output changes false
+    exit 0
 
 elif [[ $PLAN_EXIT -eq 2 ]]; then
     debug_log "Changes to apply"
