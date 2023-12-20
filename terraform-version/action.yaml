@@ -26,7 +26,7 @@ outputs:
 
 runs:
   using: docker
-  image: docker://danielflook/terraform-github-actions:home
+  image: docker://danielflook/terraform-github-actions:fix-self-hosted
   entrypoint: /entrypoints/version.sh
 
 branding:

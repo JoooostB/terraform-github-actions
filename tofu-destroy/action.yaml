@@ -38,7 +38,7 @@ runs:
   env:
     OPENTOFU: true
   using: docker
-  image: docker://danielflook/terraform-github-actions:home
+  image: docker://danielflook/terraform-github-actions:fix-self-hosted
   entrypoint: /entrypoints/destroy.sh
 
 branding:
